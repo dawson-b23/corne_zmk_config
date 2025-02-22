@@ -72,7 +72,7 @@
   &kp N1     &kp N2     &kp N3    &kp N4     &kp N5       &kp N6    &kp N7    &kp N8     &kp N9    &kp N0
   &kp MINUS  &kp EQUAL  &kp LBRC  &kp LBKT   &kp LPAR     &kp RPAR  &kp RBKT  &kp RBRC   &kp FSLH  &kp BSLH
   &kp GRAVE  &trans     &trans    &kp COMMA  &kp COLON    &kp SEMI  &kp DOT   &kp LCTRL  &kp RALT  &trans
-                        &kp LGUI  &kp ESC    &kp SPACE    &kp RET   &trans    &kp TAB
+                        &kp LGUI  &to 0      &kp SPACE    &kp RET   &to 4     &kp TAB
             >;
         };
 
