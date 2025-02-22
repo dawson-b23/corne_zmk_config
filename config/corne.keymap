@@ -76,8 +76,6 @@
             >;
         };
 
-        extra_1 { status = "reserved"; };
-
         gaming {
             display-name = "Gaming";
             bindings = <
@@ -87,7 +85,7 @@
                                   &trans        &trans        &trans     &trans  &trans  &to 0
             >;
         };
-
+        extra_2 { status = "reserved"; };
         extra_3 { status = "reserved"; };
     };
 };
