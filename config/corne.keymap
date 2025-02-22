@@ -9,7 +9,9 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    chosen { zmk,physical-layout = &foostan_corne_5col_layout; };
+    chosen { 
+        zmk,physical-layout = &foostan_corne_5col_layout; 
+    };
 
     behaviors {
         kht: kht {
