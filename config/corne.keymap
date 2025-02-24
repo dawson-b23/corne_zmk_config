@@ -70,7 +70,7 @@
   &kp EXCL    &kp AT        &kp HASH        &kp DLLR         &kp PRCNT         &kp CARET  &kp AMPS  &kht DOUBLE_QUOTES SINGLE_QUOTE  &kp LPAR   &kp RPAR
   &kp MINUS   &kp PLUS      &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp UNDERSCORE    &kp LEFT   &kp DOWN  &kp UP                           &kp RIGHT  &trans
   &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2     &trans            &trans     &trans    &trans                           &trans     &trans
-                            &kp LGUI        &to 0            &kp SPACE         &kp RET    &to 3     &kp TAB
+                            &kp LGUI        &to 0            &trans            &trans     &to 3     &kp TAB
             >;
         };
 
@@ -86,7 +86,7 @@
   &kp N1     &kp N2     &kp N3    &kp N4     &kp N5       &kp N6    &kp N7    &kp N8     &kp N9    &kp N0
   &kp MINUS  &kp EQUAL  &kp LBRC  &kp LBKT   &kp LPAR     &kp RPAR  &kp RBKT  &kp RBRC   &kp FSLH  &kp BSLH
   &kp GRAVE  &trans     &trans    &kp COMMA  &kp COLON    &kp SEMI  &kp DOT   &kp LCTRL  &kp RALT  &trans
-                        &kp LGUI  &to 0      &kp SPACE    &kp RET   &to 3     &kp TAB
+                        &kp LGUI  &to 0      &trans       &trans    &to 3     &kp TAB
             >;
         };
 
