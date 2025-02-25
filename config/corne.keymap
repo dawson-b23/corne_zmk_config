@@ -51,10 +51,10 @@
 
             display-name = "Base";
             bindings = <
-  &kp Q                &kp W  &kp E     &kp R  &kp T                    &kp Y          &kp U  &kp I       &kp O       &kp P
-  &kp A                &kp S  &kp D     &kp F  &kp G                    &kp H          &kp J  &kp K       &kp L       &kht COLON SEMI
-  &kht LEFT_CONTROL Z  &kp X  &kp C     &kp V  &kp B                    &kp N          &kp M  &kp COMMA   &kp PERIOD  &kht QUESTION SLASH
-                              &kp LGUI  &mo 1  &kht LEFT_SHIFT SPACE    &kp BACKSPACE  &to 2  &kp ESCAPE
+  &kht NUMBER_1 Q      &kht NUMBER_2 W  &kht NUMBER_3 E  &kht NUMBER_4 R  &kht NUMBER_5 T          &kht NUMBER_6 Y  &kht NUMBER_7 U  &kht NUMBER_8 I  &kht NUMBER_9 O  &kht NUMBER_0 P
+  &kp A                &kp S            &kp D            &kp F            &kp G                    &kp H            &kp J            &kp K            &kp L            &kht COLON SEMI
+  &kht LEFT_CONTROL Z  &kp X            &kp C            &kp V            &kp B                    &kp N            &kp M            &kp COMMA        &kp PERIOD       &kht QUESTION SLASH
+                                        &kp LGUI         &mo 1            &kht LEFT_SHIFT SPACE    &kp BACKSPACE    &to 2            &kp ESCAPE
             >;
         };
 
