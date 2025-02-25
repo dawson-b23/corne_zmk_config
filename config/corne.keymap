@@ -67,10 +67,10 @@
 
             display-name = "Lower";
             bindings = <
-  &kp EXCL    &kp AT        &kp HASH        &kp DLLR         &kp PRCNT         &kp CARET  &kp AMPS  &kht DOUBLE_QUOTES SINGLE_QUOTE  &kp LPAR   &kp RPAR
-  &kp MINUS   &kp PLUS      &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp UNDERSCORE    &kp LEFT   &kp DOWN  &kp UP                           &kp RIGHT  &trans
-  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2     &trans            &trans     &trans    &trans                           &trans     &trans
-                            &kp LGUI        &to 0            &trans            &trans     &to 3     &kp TAB
+  &kp EXCL               &kp AT           &kp HASH                      &kp DLLR                        &kp PRCNT         &kp CARET  &kp AMPS  &kp STAR  &kp LPAR   &kp RPAR
+  &kht UNDERSCORE MINUS  &kht EQUAL PLUS  &kht LEFT_BRACKET LEFT_BRACE  &kht RIGHT_BRACKET RIGHT_BRACE  &kp UNDERSCORE    &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT  &kht DOUBLE_QUOTES SINGLE_QUOTE
+  &kht TILDE GRAVE       &trans           &trans                        &kht PIPE BACKSLASH             &trans            &trans     &trans    &trans    &trans     &trans
+                                          &kp LGUI                      &to 0                           &trans            &trans     &to 3     &kp TAB
             >;
         };
 
@@ -83,20 +83,20 @@
 
             display-name = "Raise";
             bindings = <
-  &kp N1     &kp N2     &kp N3    &kp N4     &kp N5       &kp N6    &kp N7    &kp N8     &kp N9    &kp N0
-  &kp MINUS  &kp EQUAL  &kp LBRC  &kp LBKT   &kp LPAR     &kp RPAR  &kp RBKT  &kp RBRC   &kp FSLH  &kp BSLH
-  &kp GRAVE  &trans     &trans    &kp COMMA  &kp COLON    &kp SEMI  &kp DOT   &kp LCTRL  &kp RALT  &trans
-                        &kp LGUI  &to 0      &trans       &trans    &to 3     &kp TAB
+  &kp N1      &kp N2        &kp N3        &kp N4        &kp N5       &kp N6    &kp N7    &kp N8     &kp N9    &kp N0
+  &kp MINUS   &kp EQUAL     &kp LBRC      &kp LBKT      &kp LPAR     &kp RPAR  &kp RBKT  &kp RBRC   &kp FSLH  &kp BSLH
+  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &kp COLON    &kp SEMI  &kp DOT   &kp LCTRL  &kp RALT  &trans
+                            &kp LGUI      &to 0         &trans       &trans    &to 3     &kp TAB
             >;
         };
 
         gaming {
             display-name = "Gaming";
             bindings = <
-  &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5     &kp NUMBER_6  &kp N7  &kp N8     &kp N9   &kp N0
-  &kp LEFT_SHIFT    &kp S         &kp W         &kp F         &kp G      &kp H         &kp J   &kp K      &kp L    &kp SEMI
-  &kp LEFT_CONTROL  &kp A         &kp S         &kp D         &kp TAB    &kp N         &kp M   &kp COMMA  &kp DOT  &kp FSLH
-                                  &trans        &to 0         &trans     &trans        &trans  &to 0
+  &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5              &kp NUMBER_6  &kp N7  &kp N8     &kp N9   &kp N0
+  &kp LEFT_SHIFT    &kp S         &kp W         &kp F         &kp G               &kp H         &kp J   &kp K      &kp L    &kp SEMI
+  &kp LEFT_CONTROL  &kp A         &kp S         &kp D         &kp TAB             &kp N         &kp M   &kp COMMA  &kp DOT  &kp FSLH
+                                  &kp ESCAPE    &to 0         &kht GRAVE SPACE    &trans        &trans  &to 0
             >;
         };
 
