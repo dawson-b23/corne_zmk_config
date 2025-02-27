@@ -77,19 +77,23 @@ Key settings in the configuration include:
 
 ### Base Layer
 
+```
 -----------------------------------------------------------------------------------------
 |  Q  |  W  |  E  |  R  |  T  |     |  Y  |  U  |  I  |  O  |  P  |
 |  A  |  S  |  D  |  F  |  G  |     |  H  |  J  |  K  |  L  |  '  |
 |  Z  |  X  |  C  |  V  |  B  |     |  N  |  M  | CTRL| META|  .  |
             | GUI | LWR | SPC |     | ENT | RSE | BSPC|
+```
 
 ### Lower Layer
 
+```
 -----------------------------------------------------------------------------------------
 |  !  |  @  |  #  |  $  |  %  |     |  ^  |  &  |  *  |  (  |  )  |
 | BT1 | BT2 | BT3 | BT4 | BT5 |     | LFT | DWN |  UP | RGT |     |
 |BTCLR|     |     |     |     |     |     |     |     |     |     |
             | GUI |     | SPC |     | ENT | ESC | TAB |
+```
 
 ### Raise Layer
 
@@ -103,11 +107,13 @@ Key settings in the configuration include:
 
 ### Gaming Layer
 
+```
 -----------------------------------------------------------------------------------------
 |  1  |  2  |  3  |  4  |  5  |     |  6  |  7  |  8  |  9  |  0  |
 | SHFT|  S  |  W  |  F  |  G  |     |  H  |  J  |  K  |  L  |  ;  |
 | CTRL|  A  |  S  |  D  | TAB |     |  N  |  M  |  ,  |  .  |  /  |
             | ESC |Base | SPC |     |     |     |Base |
+```
 
 ## Contributing
 
