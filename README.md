@@ -29,24 +29,32 @@ This repository contains a custom ZMK firmware configuration for a split ergonom
 ## Configuration Files
 
 ### `config.west.yml`
+
 Defines the ZMK firmware dependency and project structure:
+
 - Pulls the main ZMK repository from [zmkfirmware/zmk](https://github.com/zmkfirmware/zmk).
 - Places custom configuration in the `config` directory.
 
 ### `build.yml`
+
 Configures GitHub Actions to build firmware for:
+
 - Nice!Nano v2 with `corne_left` and `corne_right` shields.
 - Includes Nice!View display support with the `studio-rpc-usb-uart` snippet.
 
 ### Keymap Configuration
+
 The keymap file defines:
+
 - A 5-column matrix transform.
 - Four active layers (`default`, `lower`, `raise`, `gaming`) with detailed bindings.
 - Custom hold-tap behavior with tap-preferred flavor.
 - Combo definitions for `Tab` and `Enter`.
 
 ### Settings
+
 Key settings in the configuration include:
+
 - Eager debouncing for responsive keypresses (`CONFIG_ZMK_KSCAN_DEBOUNCE_PRESS_MS=1`, `CONFIG_ZMK_KSCAN_DEBOUNCE_RELEASE_MS=10`).
 - Optional deep sleep (`CONFIG_ZMK_SLEEP`) and USB logging (`CONFIG_ZMK_USB_LOGGING`)—uncomment to enable.
 - Increased Bluetooth range (`CONFIG_BT_CTLR_TX_PWR_PLUS_8`).
@@ -54,6 +62,7 @@ Key settings in the configuration include:
 ## Getting Started
 
 ### Prerequisites
+
 - A Corne keyboard with Nice!Nano v2 controllers.
 - [ZMK Firmware](https://zmk.dev/docs) installed and configured.
 - [West](https://docs.zephyrproject.org/latest/develop/west/index.html) tool for ZMK dependency management.
@@ -67,14 +76,15 @@ Key settings in the configuration include:
 ## Keymap Layout
 
 ### Base Layer
+
 -----------------------------------------------------------------------------------------
 |  Q  |  W  |  E  |  R  |  T  |     |  Y  |  U  |  I  |  O  |  P  |
 |  A  |  S  |  D  |  F  |  G  |     |  H  |  J  |  K  |  L  |  '  |
 |  Z  |  X  |  C  |  V  |  B  |     |  N  |  M  | CTRL| META|  .  |
             | GUI | LWR | SPC |     | ENT | RSE | BSPC|
 
-
 ### Lower Layer
+
 -----------------------------------------------------------------------------------------
 |  !  |  @  |  #  |  $  |  %  |     |  ^  |  &  |  *  |  (  |  )  |
 | BT1 | BT2 | BT3 | BT4 | BT5 |     | LFT | DWN |  UP | RGT |     |
@@ -82,13 +92,17 @@ Key settings in the configuration include:
             | GUI |     | SPC |     | ENT | ESC | TAB |
 
 ### Raise Layer
+
+```
 -----------------------------------------------------------------------------------------
 | 1!  |  2@ |  3# |  4$ |  5% |     |  6^ |  7& |  8* |  9( |  0) |
 | -_  |  =+ |  {  |  [  |  (  |     |  )  |  ]  |  }  | /?  |  \| |
 | `~  |BT S0|BT S1|BT S2|  :  |     |  ;  |  .> | CTRL| META|     |
             | GUI | ESC | SPC |     | ENT |     | TAB |
+```
 
 ### Gaming Layer
+
 -----------------------------------------------------------------------------------------
 |  1  |  2  |  3  |  4  |  5  |     |  6  |  7  |  8  |  9  |  0  |
 | SHFT|  S  |  W  |  F  |  G  |     |  H  |  J  |  K  |  L  |  ;  |
