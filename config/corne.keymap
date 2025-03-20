@@ -56,10 +56,10 @@
 
             display-name = "Base";
             bindings = <
-  &kp Q                &kp W            &kp E              &kp R                  &kp T        &kp Y    &kp U             &kp I               &kp O             &kp P
-  &kht ESCAPE A        &kht LEFT_ALT S  &kht LEFT_SHIFT D  &kht LEFT_GUI F        &kp G        &kp H    &kht RIGHT_GUI J  &kht RIGHT_SHIFT K  &kht RIGHT_ALT L  &kht ESCAPE SEMI
-  &kht LEFT_CONTROL Z  &kp X            &kp C              &kp V                  &kp B        &kp N    &kp M             &kp COMMA           &kp PERIOD        &kht LEFT_CONTROL SLASH
-                                        &mo 1              &kht LEFT_SHIFT SPACE  &kp ENTER    &kp TAB  &kp BACKSPACE     &to 2
+  &kp Q                &kp W            &kp E              &kp R            &kp T                    &kp Y          &kp U             &kp I               &kp O             &kp P
+  &kht ESCAPE A        &kht LEFT_ALT S  &kht LEFT_SHIFT D  &kht LEFT_GUI F  &kp G                    &kp H          &kht RIGHT_GUI J  &kht RIGHT_SHIFT K  &kht RIGHT_ALT L  &kht ESCAPE SEMI
+  &kht LEFT_CONTROL Z  &kp X            &kp C              &kp V            &kp B                    &kp N          &kp M             &kp COMMA           &kp PERIOD        &kht LEFT_CONTROL SLASH
+                                        &kp ENTER          &mo 1            &kht LEFT_SHIFT SPACE    &kp BACKSPACE  &kp TAB           &to 2
             >;
         };
 
@@ -101,7 +101,7 @@
   &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5              &kp NUMBER_6  &kp N7  &kp N8     &kp N9   &kp N0
   &kp LEFT_SHIFT    &kp S         &kp W         &kp F         &kp G               &kp H         &kp J   &kp K      &kp L    &kp SEMI
   &kp LEFT_CONTROL  &kp A         &kp S         &kp D         &kp TAB             &kp N         &kp M   &kp COMMA  &kp DOT  &kp FSLH
-                                  &kp ESCAPE    &to 0         &kht GRAVE SPACE    &trans        &trans  &to 0
+                                  &kp ESCAPE    &kp ENTER     &kht GRAVE SPACE    &trans        &trans  &to 0
             >;
         };
 
